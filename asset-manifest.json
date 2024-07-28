@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ds3-boss-tracker/static/css/main.8a874e30.css",
+    "main.js": "/ds3-boss-tracker/static/js/main.224572f0.js",
+    "static/js/453.120599fc.chunk.js": "/ds3-boss-tracker/static/js/453.120599fc.chunk.js",
+    "static/media/soul_of_cinder.jpg": "/ds3-boss-tracker/static/media/soul_of_cinder.2f6d3eb14a37fc6a5da8.jpg",
+    "static/media/halflight.jpg": "/ds3-boss-tracker/static/media/halflight.3ed8f0955bc3a38ea1a5.jpg",
+    "static/media/dragonslayer.jpg": "/ds3-boss-tracker/static/media/dragonslayer.9e12015fc97653329fcb.jpg",
+    "static/media/iudex_gundyr.jpg": "/ds3-boss-tracker/static/media/iudex_gundyr.537b46a31c1a94639865.jpg",
+    "static/media/dancer.jpg": "/ds3-boss-tracker/static/media/dancer.0e587d71148e5e6724a7.jpg",
+    "static/media/ancient_wyvern.jpg": "/ds3-boss-tracker/static/media/ancient_wyvern.fdaa51babd6b7981c269.jpg",
+    "static/media/lothric.jpg": "/ds3-boss-tracker/static/media/lothric.3df1f784ba4e65fe19ce.jpg",
+    "static/media/abyss_watchers.jpg": "/ds3-boss-tracker/static/media/abyss_watchers.6d0e6b357af8882a90b0.jpg",
+    "static/media/wolnir.jpg": "/ds3-boss-tracker/static/media/wolnir.f1ce4b7f587a11a727a4.jpg",
+    "static/media/nameless_king.jpg": "/ds3-boss-tracker/static/media/nameless_king.8e2d0054f3789da58492.jpg",
+    "static/media/midir.jpg": "/ds3-boss-tracker/static/media/midir.13d6027d338d439f8730.jpg",
+    "static/media/gael.jpg": "/ds3-boss-tracker/static/media/gael.bd4648fe2ab018725a56.jpg",
+    "static/media/greatwood.jpg": "/ds3-boss-tracker/static/media/greatwood.44ce1214f020eb24ce39.jpg",
+    "static/media/pontiff.jpg": "/ds3-boss-tracker/static/media/pontiff.40e7b2eb4776c9dc7a03.jpg",
+    "static/media/champion_gundyr.jpg": "/ds3-boss-tracker/static/media/champion_gundyr.dc62c8bd3e0428d45ae2.jpg",
+    "static/media/aldrich.jpg": "/ds3-boss-tracker/static/media/aldrich.75139d2d87e544eab3c0.jpg",
+    "static/media/old_demon_king.jpg": "/ds3-boss-tracker/static/media/old_demon_king.8b623f7984f4e2eff0fa.jpg",
+    "static/media/sister_friede.jpg": "/ds3-boss-tracker/static/media/sister_friede.d9c05a27362f69dc74e8.jpg",
+    "static/media/demon_prince.jpg": "/ds3-boss-tracker/static/media/demon_prince.1aeed0edf57f62e7b359.jpg",
+    "static/media/champions_gravetender.jpg": "/ds3-boss-tracker/static/media/champions_gravetender.bdba44668548f446815c.jpg",
+    "static/media/yhorm.jpg": "/ds3-boss-tracker/static/media/yhorm.c2cd473778fab838c005.jpg",
+    "static/media/oceiros.jpg": "/ds3-boss-tracker/static/media/oceiros.d1a494e388096b575697.jpg",
+    "static/media/crystal_sage.jpg": "/ds3-boss-tracker/static/media/crystal_sage.5b5e96beca8966e19abe.jpg",
+    "static/media/deacons.jpg": "/ds3-boss-tracker/static/media/deacons.b2f822dc36ffd817153b.jpg",
+    "static/media/OptimusPrincepsSemiBold.ttf": "/ds3-boss-tracker/static/media/OptimusPrincepsSemiBold.69061516ffcdb2039c7f.ttf",
+    "static/media/OptimusPrinceps.ttf": "/ds3-boss-tracker/static/media/OptimusPrinceps.20e6750830b534d901f0.ttf",
+    "static/media/vordt.jpg": "/ds3-boss-tracker/static/media/vordt.09d15086dc695966627e.jpg",
+    "index.html": "/ds3-boss-tracker/index.html",
+    "main.8a874e30.css.map": "/ds3-boss-tracker/static/css/main.8a874e30.css.map",
+    "main.224572f0.js.map": "/ds3-boss-tracker/static/js/main.224572f0.js.map",
+    "453.120599fc.chunk.js.map": "/ds3-boss-tracker/static/js/453.120599fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a874e30.css",
+    "static/js/main.224572f0.js"
+  ]
+}
