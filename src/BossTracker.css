@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'OptimusPrinceps';
+  src: url('./assets/fonts/OptimusPrinceps.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OptimusPrincepsSemiBold';
+  src: url('./assets/fonts/OptimusPrincepsSemiBold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-family: 'OptimusPrinceps', Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  text-align: center;
+  color: #b8860b;
+  font-family: 'OptimusPrincepsSemiBold', Arial, sans-serif;
+}
+
+.boss-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.boss-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #704214;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.boss-item.defeated {
+  background-color: #3A5A40;
+  color: #b8860b;
+}
+
+.boss-item:hover {
+  background-color: #5c4033;
+}
+
+.boss-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.boss-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #704214;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.count-input {
+  width: 40px;
+  text-align: center;
+  background-color: #2e2e2e;
+  color: #fff;
+  border: 1px solid #704214;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 5px;
+  -moz-appearance: textfield;
+}
+
+.count-input::-webkit-outer-spin-button,
+.count-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button {
+  background-color: #b8860b;
+  border: none;
+  color: #000;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #daa520;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.reset-button-container {
+  position: relative;
+  width: 100%;
+}
+
+.reset-button {
+  background-color: #8b0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: 'Mantinia Regular', Arial, sans-serif;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reset-button-2 {
+  background-color: #8b0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: 'Mantinia Regular', Arial, sans-serif;
+  position: relative;
+}
+
+.reset-button:hover {
+  background-color: #a83232;
+}
+
+.immortality-severed-button,
+.victory-achieved-button {
+  background-color: #b8860b;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  margin: 20px 0 -5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: 'Mantinia Regular', Arial, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.immortality-severed-button:hover,
+.victory-achieved-button:hover {
+  background-color: #daa520;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content {
+  background: #2e2e2e;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  color: #b8860b;
+}
+
+.modal-boss-image {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal .button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 2em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.modal .button:hover {
+  color: #b8860b;
+}
+
+.modal .button-group {
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.modal .count-input {
+  width: 60px;
+  height: 40px;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.confirmation-modal .modal-content {
+  padding: 20px;
+}
+
+.confirmation-modal .modal-button {
+  background-color: #b8860b;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.confirmation-modal .modal-button:hover {
+  background-color: #daa520;
+}
+
+.count-input {
+  border: none;
+}
+
+.description-text {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: arial;
+}
+
+.total-deaths {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #b8860b;
+}
+
+.toggle-button {
+  background-color: #8b0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: 'Mantinia Regular', Arial, sans-serif;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.toggle-button:hover {
+  background-color: #a83232;
+}
+
+.title-items {
+  display: flex;
+  flex-direction: column;
+}
